@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.Fragment_2">
+
+    <!-- TODO: Update blank fragment layout -->
+    <EditText
+        android:id="@+id/edName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name"/>
+    <EditText
+        android:id="@+id/edDes"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:inputType="textMultiLine"
+        android:layout_marginTop="10dp"
+        android:hint="Description"
+        android:gravity="top"/>
+    <EditText
+        android:id="@+id/edDetail"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:inputType="textMultiLine"
+        android:layout_marginTop="10dp"
+        android:hint="Detail"
+        android:gravity="top"/>
+    <EditText
+        android:id="@+id/edMoney"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:inputType="textMultiLine"
+        android:layout_marginTop="10dp"
+        android:hint="Money"
+        android:gravity="top"/>
+    <EditText
+        android:id="@+id/edDateAt"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:inputType="textMultiLine"
+        android:layout_marginTop="10dp"
+        android:hint="Date At"
+        android:gravity="top"/>
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"/>
+    <Button
+        android:id="@+id/btAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"/>
+
+</FrameLayout>
